@@ -61,6 +61,15 @@ public class UserController {
 			return String.valueOf(row);
 			
 		}
+		
+		// ·Î±×¾Æ¿ô
+		@RequestMapping("/UserLogout.sp")
+	    public String logout(HttpSession session){
+			//System.out.println(session.getAttribute("userEmail"));
+			System.out.println("·Î±×¾Æ¿ô");
+			session.invalidate();
+			return "/WEB-INF/view/index.jsp";
+		}
 	
 
 
