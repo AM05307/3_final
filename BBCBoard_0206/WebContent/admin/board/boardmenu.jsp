@@ -22,7 +22,7 @@
 </c:forEach>
 <tr>
 	<td>
-	<a href="${root}/memo/list.playdata?seq=1">한줄메모</a>
+	<a href="${root}/memo/list.playdata?seq=1">한줄메모3</a>
 	</td> 
 </tr>
 </table>
