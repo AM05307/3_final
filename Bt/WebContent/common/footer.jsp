@@ -4,6 +4,7 @@
 </tr>
 <tr>
 	<td colspan="2" height="100">
+	====footer.jsp====
 	GOSUIC
 	</td>
 </tr>

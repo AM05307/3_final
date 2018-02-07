@@ -22,7 +22,7 @@
 </c:forEach>
 <tr>
 	<td>
-	<a href="${root}/memo/list.playdata?seq=1">한줄메모</a>
+	<a href="${root}/memo/list.playdata?seq=1">메모게시판 바로 연결하는 링크 </a>
 	</td> 
 </tr>
 </table>

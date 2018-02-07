@@ -6,9 +6,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<title>header.jsp</title>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
 <script type="text/javascript">
 root = "${root}";
 </script>
@@ -21,18 +21,18 @@ root = "${root}";
 	<font size="12"><b><a href="${root}">GOSUIC</a></b></font>
 	</td>
 </tr>
-<tr>
+<%-- <tr>
 	<td colspan="2" height="30" align="right">
 	<c:if test="${userInfo == null}">
 	<%@ include file="/login/logoff.jsp" %>
 	</c:if>
-	<c:if test="${userInfo != null}">
+	<c:if test="${userInfo != null}">          
 	<%@ include file="/login/loginok.jsp" %>
 	</c:if>
 	</td>
-</tr>
+</tr> --%>
 <tr>
 	<td width="190" valign="top">
 	<%@ include file="/admin/board/boardmenu.jsp" %>
 	</td>
-	<td align="left" valign="top">
+	<td align="left" valign="top">  

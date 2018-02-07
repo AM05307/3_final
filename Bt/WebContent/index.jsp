@@ -5,9 +5,10 @@
 매번 바뀌는 부분..<br>
 
 <%=request.getAttribute("root") %>
-<a href="${root}/user?act=mvmemberlist">회원목록</a>
+<%-- <a href="${root}/user?act=mvmemberlist">회원목록</a> --%>
 <%@ include file="/common/footer.jsp" %>
 
 
 
 
+                                                                                                                                                                             
