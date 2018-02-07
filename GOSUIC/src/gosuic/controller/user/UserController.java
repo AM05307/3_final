@@ -68,7 +68,8 @@ public class UserController {
 			//System.out.println(session.getAttribute("userEmail"));
 			System.out.println("·Î±×¾Æ¿ô");
 			session.invalidate();
-			return "/WEB-INF/view/index.jsp";
+		
+			return "/index.jsp";
 		}
 	
 

@@ -1,13 +1,17 @@
+<%@ page import ="java.sql.Timestamp" %>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+
 <% if(session.getAttribute("userEmail") == null) {%>
 	<script languge ="javascript">
 		alert("로그인이 필요합니다.");
+		history.back();
 	</script>
 	
 	<jsp:forward page="index.jsp"></jsp:forward>
 <% }%>
 <% System.out.print(session.getAttribute("userEmail")); %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,6 +19,7 @@
 <title>주소검색</title>
 </head>
 <body>
+
 <input type="text" id="sample4_postcode" placeholder="우편번호">
 <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"><br>
 <input type="text" id="sample4_roadAddress" placeholder="시/군/구/동 주소">

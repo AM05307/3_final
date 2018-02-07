@@ -94,13 +94,15 @@
 			<div class="collapse navbar-collapse yamm" id="navigation">
 				<div class="button navbar-right">
 					<!-- 로그인, 회원가입 버튼  -->
+		
 					<button class="navbar-btn nav-button wow bounceInRight login"
 						onclick=" location.href='/GOSUIC/loginform.sp'"
 						data-wow-delay="0.45s">로그인</button>
 					<button class="navbar-btn nav-button wow fadeInRight"
-						onclick=" location.href='/GOSUIC/insert.sp'" data-wow-delay="0.48s">회원가입</button>
+						onclick=" location.href=''/GOSUIC/insert.sp'" data-wow-delay="0.48s">회원가입</button>
 				</div>
 
+          
 				<!-- 메뉴바 -->
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="index.html">Home <b class="caret"></b></a></li>

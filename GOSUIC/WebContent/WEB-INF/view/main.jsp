@@ -16,35 +16,41 @@
 <!--<![endif]-->
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>고수익 | Home </title>
-  <meta name="description" content="GARO is a real-estate template">
-  <meta name="author" content="Kimarotec">
-  <meta name="keyword" content="html5, css, bootstrap, property, real-estate theme , bootstrap template">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>고수익 | Home</title>
+<meta name="description" content="GARO is a real-estate template">
+<meta name="author" content="Kimarotec">
+<meta name="keyword"
+	content="html5, css, bootstrap, property, real-estate theme , bootstrap template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+<link
+	href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800'
+	rel='stylesheet' type='text/css'>
 
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/fontello.css">
-  <link href="assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
-  <link href="assets/fonts/icon-7-stroke/css/helper.css" rel="stylesheet">
-  <link href="assets/css/animate.css" rel="stylesheet" media="screen">
-  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/icheck.min_all.css">
-  <link rel="stylesheet" href="assets/css/price-range.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.css">
-  <link rel="stylesheet" href="assets/css/owl.theme.css">
-  <link rel="stylesheet" href="assets/css/owl.transitions.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/normalize.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/fontello.css">
+<link href="assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css"
+	rel="stylesheet">
+<link href="assets/fonts/icon-7-stroke/css/helper.css" rel="stylesheet">
+<link href="assets/css/animate.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/icheck.min_all.css">
+<link rel="stylesheet" href="assets/css/price-range.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.css">
+<link rel="stylesheet" href="assets/css/owl.theme.css">
+<link rel="stylesheet" href="assets/css/owl.transitions.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+
+<link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
@@ -219,100 +225,52 @@
   <!-- End of nav bar 상단 메뉴바 END-->
 
 
-  <!--슬라이드 화면 시작   -->
-  <div class="slider-area">
-    <div class="slider">
-      <div id="bg-slider" class="owl-carousel owl-theme">
+ 
+	<!--슬라이드 화면 시작   -->
+	<div class="slider-area">
+		<div class="slider">
+			<div id="bg-slider" class="owl-carousel owl-theme">
 
-        <div class="item"><img src="assets/img/mainpage/slide1/skyline001.jpg" alt="슬라이드화면1"></div>
-        <div class="item"><img src="assets/img/mainpage/slide1/skyline002.jpg" alt="슬라이드화면2"></div>
-        <div class="item"><img src="assets/img/mainpage/slide1/skyline003.jpg" alt="슬라이드화면3"></div>
+				<div class="item">
+					<img src="assets/img/mainpage/slide1/skyline001.jpg" alt="슬라이드화면1">
+				</div>
+				<div class="item">
+					<img src="assets/img/mainpage/slide1/skyline002.jpg" alt="슬라이드화면2">
+				</div>
+				<div class="item">
+					<img src="assets/img/mainpage/slide1/skyline003.jpg" alt="슬라이드화면3">
+				</div>
 
-      </div>
-    </div>
-    <div class="slider-content">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-          <h2>매물을 검색할 지역을 선택하세요</h2>
-          <p>지역별 매물을 조회할 수 있습니다. 더보기 버튼을 클릭하면 금액설정이 가능합니다. *******[SYSTEM]드롭다운 메뉴는 DB에서 불러옵니다. 지금 드롭다운메뉴에 적은건 디자인예시입니다.************</p>
-          <div class="search-form wow pulse" data-wow-delay="0.8s">
+			</div>
+		</div>
+		<div class="slider-content">
+			<div class="row">
+				<div
+					class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+					<div class="search">
+						<br> 매물을 검색하세요. <br>
+						<hr>
+					</div>
 
-            <form action="" class=" form-inline">
-              <button class="btn  toggle-btn" type="button"><i class="fa fa-bars"></i></button>
+					<div class="search-form wow pulse">
+			
+						<!-- 검색버튼  -->
+						<button class="btn search1-btn" type="submit"
+							onclick=" window.open('/GOSUIC/findaddress.jsp')">
+							지역 선택하기<i class="fa fa-search"></i>
+						</button>
 
-              <div class="form-group">
-                <select id="ADDR1_SIDO" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="시/도">
-<!-- 드롭다운 메뉴는 DB에서 불러옴  -->
-                                        <option>시/도1</option>
-                                        <option>시/도2</option>
-                                        <option>시/도3</option>
-                                        <option>시/도4</option>
-                                        <option>시/도5</option>
-                                        <option>시/도6</option>
-                                    </select>
-              </div>
-              <div class="form-group">
-                <select id="ADDR2_SIGUNGU" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="시/군/구">
+					</div>
+					<!-- 검색창구분  end -->
 
-                                        <option>시/군/구1</option>
-                                        <option>시/군/구2</option>
-                                        <option>시/군/구3</option>
-                                        <option>시/군/구4</option>
-                                        <option>시/군/구5</option>
-                                        <option>시/군/구6</option>
-                                    </select>
-              </div>
-              <div class="form-group">
-                <select id="ADDR3_EUBMYUNDONG" class="selectpicker" data-live-search="true" data-live-search-style="begins" title="읍/면/동">
-
-                                        <option>읍/면/동1</option>
-                                        <option>읍/면/동2</option>
-                                        <option>읍/면/동3</option>
-                                        <option>읍/면/동4</option>
-                                        <option>읍/면/동5</option>
-                                        <option>읍/면/동6</option>
-                                    </select>
-              </div>
-
-
-              <!-- 검색버튼  -->
-              <button class="btn search-btn" type="submit" onclick=" window.open('/GOSUIC/list.sp')"><i class="fa fa-search" ></i></button>
-
-              <div style="display: none;" class="search-toggle">
-
-                <div class="search-row">
-*선택입력&nbsp;&nbsp;&nbsp;&nbsp;
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="최소가격(단위:만원)">
-                  </div>
-                  &nbsp;&nbsp;&nbsp;&nbsp;
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="최대가격(단위:만원)">
-                  </div>
-
-
-
-                </div>
-
-
-
-              </div>
-              <!-- class="row"end -->
-
-
-              <!--가격 입력칸   -->
-
-          </div>
-          <!-- 검색창구분  end -->
-          </form>
-          <!-- 검색창 end -->
-        </div>
-        <!-- class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12" end -->
-      </div>
-      <!-- class="row" end  -->
-    </div>
-    <!--  class="slider-content" end-->
-  </div>
+					<!-- 검색창 end -->
+				</div>
+				<!-- class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12" end -->
+			</div>
+			<!-- class="row" end  -->
+		</div>
+		<!--  class="slider-content" end-->
+	</div>
   <!--  슬라이드 화면 end = class="slider-area" end -->
 
 
